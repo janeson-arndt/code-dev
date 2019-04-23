@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Code - Contato</title>
+</head>
+<body class="colorPage">
+    <div class="containerPrincipal" id="topo">
+        <header>
+            <div class="logo">
+                 <a href="index.html"> 
+                     <img src="./imagens_site/logo.png" alt="logo do site">
+                 </a> 
+             </div>
+             
+             <nav>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="clientes.html">Clientes</a></li>
+                     <li><a href="sobre.html">Sobre</a></li>
+                     <li><a href="#topo">Contato</a></li>
+                 </ul>
+             </nav>
+        </header>
+
+        <div class="imagemTitulo">
+            <img src="./imagens_site/contato.png" alt="imagem de contato ">
+        </div>
+
+        <section id="textContato">
+            <form name="meuForm" id="idMeuForm">
+                <p class="nome">
+                    <label for="nome">Nome:</label><br>
+                     <input type="text" id="idNome" placeholder="Ex: Fulano da Silva" required="required" name="nome"/>
+                </p>
+                <p class="fone">
+                    <label for="fone">Fone:</label><br>
+                    <input type="phone" id="idFone" placeholder="(xx)xxxxx-xxxx" name="fone"/>
+                </p>
+                <P>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="idEmail" placeholder="fulano@gmail.com" required="required"/>
+                </P><br>
+                <P>
+                    <textarea placeholder="mensagem" required="required"></textarea>
+                </P>
+                <button type="submit" form="idMeuForm">Enviar</button>
+            </form>
+            
+            <div id="contaData">
+                <h4>Code - Desenvolvimento de sites</h4>
+                <h5><img src="./imagens_site/icoadress.png" alt="endereço"><br>Rua Timbó nº 104</h5>
+                <h5><img src="./imagens_site/icoTelefone.png" alt="telefone"><br>+ 55 47 99108-8979</h5>
+                <h5><img src="./imagens_site/icoTelefone.png" alt="email"><br>contato@code.com.br</h5>
+                <h5><img src="./imagens_site/icoface.png" alt="facebook"><br>facebook.com\codedev</h5>
+                <h5><img src="./imagens_site/icoinsta.png" alt="intagram"><br>@codedev</h5>
+            </div>
+        </section>
+    </div>
+ </body>
+ </html>
